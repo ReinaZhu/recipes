@@ -44,7 +44,14 @@ public class Query {
                 System.out.println(resultSet.getString(1) + "\t" +
                         resultSet.getString(2) + "\t"
                         + resultSet.getString(3)+ "\t"
-                        + resultSet.getString(4));
+                        + resultSet.getString(4)+ "\t"
+                        + resultSet.getString(5)+ "\t"
+                        + resultSet.getString(6)+ "\t"
+                        + resultSet.getString(7)+ "\t"
+                        + resultSet.getString(8)+ "\t"
+                        + resultSet.getString(9)+ "\t"
+                        + resultSet.getString(10)+ "\t"
+                );
         } catch (SQLException e) {
             e.printStackTrace();
             System.exit(0);
