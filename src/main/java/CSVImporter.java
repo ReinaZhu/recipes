@@ -13,7 +13,7 @@ public class CSVImporter {
 
         // JDBC connection information
         String url = "jdbc:postgresql://localhost:5432/postgres";
-        String user = "yin";
+        String user = "postgres";
         String password = "123456";
 
         // CSV file information
