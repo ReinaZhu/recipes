@@ -54,7 +54,7 @@ public class CSVImporter {
                 String instructions = nextLine[15];
                 String ingredients = nextLine[16];
                 String tags = nextLine[17];
-//Insert
+                //Insert
                 String insertSQL = "INSERT INTO recipe (id, name, source, preptime, waittime, cooktime, " +
                         "servings, comments, calories, fat, satfat, carbs, fiber, sugar, protein,instructions , ingredients, tags) " +
                         "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ,?, ? ,?)";
